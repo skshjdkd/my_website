@@ -1,0 +1,218 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        width: 343px;
+    }
+    .top__title_invisible {display: none;}
+    .top__title_mobile {display:inline;}
+
+    .top-cart__title{
+        font-size: 48px;
+        text-align: center;
+        margin-top: 82px;
+    }
+    .header {
+        border: none;
+        padding-top: 32px;
+        &__logo {
+            width: 99px;
+        }
+        &__search {
+            display: none;
+        }
+        &__nav {
+            display: none;
+        }
+    }
+
+    .cart {
+        display: flex;
+        flex-wrap: wrap;
+        width: 343px;
+        &__button {width: 166px; font-size: 12px;}
+        &__form {
+            &_input {
+                width: 283px;
+            }
+            width: 283px;
+            &_p {
+                width: 283px;
+            }
+            width: 283px;
+            &_button {
+                width: 283px;
+            }
+        }
+        &__left_img {
+            display: none;
+        }
+        &__info {
+            &_title {font-size: 18px;}
+            &_subtitle {font-size: 14px; width: 243px;}
+            &_price {font-size: 14px;}
+        }
+    }
+
+    .navigation {
+        height: 202px;
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        &__link {
+            font-size: 14px;
+        }
+        &__form {
+            padding-top: 39px;
+        }
+    }
+
+    .filters {
+        display: grid;
+        column-gap: 10px;
+        padding-top: 22px;
+        &_link {
+            font-size: 14px;
+        }
+    }
+
+    .filter-form {
+        height: 830px;
+        width: 190px;
+        right: 0px;
+        left: 10px;
+        top: 125px;
+        padding: 40px 48px;
+        padding-bottom: 80px;
+        &__form {
+            display: grid;
+            justify-content: center;
+            row-gap: 32px;
+        }
+    }
+    .left {
+        display: grid;
+        row-gap: 32px;
+        margin-right: 0px;
+    }
+
+    .product-content {
+        column-gap: 0px;
+        row-gap: 16px;
+    }
+
+    .type{
+        margin-bottom: 36px;
+    }
+    .main1 {
+        background-position: center;
+        height: 735px;
+    } 
+    .main2 {
+        background-position: center;
+        height: 400px;
+    }
+    .menu-mob {
+        display: flex;
+        column-gap: 32px;
+    }
+    .top {
+        text-align: center;
+        max-width: 343px;
+        padding-bottom: 359px;
+        padding-top: 29px;
+        &__title {
+            font-size: 48px;
+            text-align: center;
+            max-width: 343px;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+            text-align: center;
+            font-weight: 400;
+        }
+        &__link {
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    .kyhni {
+        height: 375px;
+    }
+    .detskoe {
+        height: 375px;
+    }
+    .vanna {
+        height: 375px;
+    }
+    .for {
+        margin-top: 32px;
+        &__title {
+            font-size: 24px;
+        }
+        &__item {
+            font-size: 28px;
+            width: 343px;
+            background-size: 100%;
+            &_big {
+                height: 243px;
+            }
+        }
+        &__content {
+            display: grid;
+            row-gap: 16px;
+            column-gap: 0px;
+            grid-template-columns: none;
+            justify-content: center;
+        }
+    }
+    .product {
+        &-box {
+            margin-top: 32px;
+        }
+        max-width: 343px;
+        height: 349px;
+        &-box__title {
+            font-size: 24px;
+        }
+        &__description {
+            max-width: 343px;
+            font-size: 14px;
+        }
+        &-content {
+            display: grid;
+            row-gap: 32px;
+            justify-content: center;
+        }
+        &__box-price {
+            font-size: 18px;
+        }
+        &__name {
+            font-size: 18px;
+        }
+        &__img {
+            width: 343px;
+        }
+    }
+
+    .footer {
+        height: 363px;
+        display: grid;
+        &__info {
+            gap: 100px;
+            margin-right: 0px;
+        }
+        &-form {
+            text-align: center;
+        }
+    }
+
+    .footer-item__link {
+        font-size: 14px ;
+    }
+}
